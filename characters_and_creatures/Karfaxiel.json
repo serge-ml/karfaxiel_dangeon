@@ -1,0 +1,987 @@
+{
+    "jsonType": "character",
+    "template": "ph",
+    "name": {
+        "value": "Archdevil Karfaxiel"
+    },
+    "hiddenName": "Наглый Поэт_574816113",
+    "info": {
+        "charClass": {
+            "name": "charClass",
+            "label": "класс и уровень",
+            "value": ""
+        },
+        "level": {
+            "name": "level",
+            "label": "уровень",
+            "value": 20
+        },
+        "background": {
+            "name": "background",
+            "label": "предыстория",
+            "value": ""
+        },
+        "playerName": {
+            "name": "playerName",
+            "label": "имя игрока",
+            "value": ""
+        },
+        "race": {
+            "name": "race",
+            "label": "раса",
+            "value": "Архидьявол"
+        },
+        "alignment": {
+            "name": "alignment",
+            "label": "мировоззрение",
+            "value": ""
+        },
+        "experience": {
+            "name": "experience",
+            "label": "опыт",
+            "value": 355000
+        }
+    },
+    "subInfo": {
+        "age": {
+            "name": "age",
+            "label": "возраст",
+            "value": ""
+        },
+        "height": {
+            "name": "height",
+            "label": "рост",
+            "value": ""
+        },
+        "weight": {
+            "name": "weight",
+            "label": "вес",
+            "value": ""
+        },
+        "eyes": {
+            "name": "eyes",
+            "label": "глаза",
+            "value": ""
+        },
+        "skin": {
+            "name": "skin",
+            "label": "кожа",
+            "value": ""
+        },
+        "hair": {
+            "name": "hair",
+            "label": "волосы",
+            "value": ""
+        }
+    },
+    "spellsInfo": {
+        "base": {
+            "name": "base",
+            "label": "Базовая характеристика заклинаний",
+            "value": ""
+        },
+        "save": {
+            "name": "save",
+            "label": "Сложность спасброска",
+            "value": ""
+        },
+        "mod": {
+            "name": "mod",
+            "label": "Бонус атаки заклинанием",
+            "value": ""
+        }
+    },
+    "spells": {},
+    "proficiency": 6,
+    "stats": {
+        "str": {
+            "name": "str",
+            "label": "Сила",
+            "score": 24,
+            "modifier": -4,
+            "check": -4
+        },
+        "dex": {
+            "name": "dex",
+            "label": "Ловкость",
+            "score": 14,
+            "modifier": -5,
+            "check": -5
+        },
+        "con": {
+            "name": "con",
+            "label": "Телосложение",
+            "score": 22,
+            "modifier": -4,
+            "check": -4
+        },
+        "int": {
+            "name": "int",
+            "label": "Интеллект",
+            "score": 20,
+            "modifier": -4,
+            "check": -4
+        },
+        "wis": {
+            "name": "wis",
+            "label": "Мудрость",
+            "score": 18,
+            "modifier": -5,
+            "check": -5
+        },
+        "cha": {
+            "name": "cha",
+            "label": "Харизма",
+            "score": 24,
+            "modifier": -4,
+            "check": -4
+        }
+    },
+    "saves": {
+        "str": {
+            "name": "str",
+            "isProf": false
+        },
+        "dex": {
+            "name": "dex",
+            "isProf": false
+        },
+        "con": {
+            "name": "con",
+            "isProf": false
+        },
+        "int": {
+            "name": "int",
+            "isProf": true
+        },
+        "wis": {
+            "name": "wis",
+            "isProf": true
+        },
+        "cha": {
+            "name": "cha",
+            "isProf": true
+        }
+    },
+    "skills": {
+        "acrobatics": {
+            "baseStat": "dex",
+            "name": "acrobatics",
+            "label": "Акробатика"
+        },
+        "investigation": {
+            "baseStat": "int",
+            "name": "investigation",
+            "label": "Анализ"
+        },
+        "athletics": {
+            "baseStat": "str",
+            "name": "athletics",
+            "label": "Атлетика"
+        },
+        "perception": {
+            "baseStat": "wis",
+            "name": "perception",
+            "label": "Восприятие",
+            "isProf": 1
+        },
+        "survival": {
+            "baseStat": "wis",
+            "name": "survival",
+            "label": "Выживание"
+        },
+        "performance": {
+            "baseStat": "cha",
+            "name": "performance",
+            "label": "Выступление"
+        },
+        "intimidation": {
+            "baseStat": "cha",
+            "name": "intimidation",
+            "label": "Запугивание"
+        },
+        "history": {
+            "baseStat": "int",
+            "name": "history",
+            "label": "История"
+        },
+        "sleight of hand": {
+            "baseStat": "dex",
+            "name": "sleight of hand",
+            "label": "Ловкость рук"
+        },
+        "arcana": {
+            "baseStat": "int",
+            "name": "arcana",
+            "label": "Магия"
+        },
+        "medicine": {
+            "baseStat": "wis",
+            "name": "medicine",
+            "label": "Медицина"
+        },
+        "deception": {
+            "baseStat": "cha",
+            "name": "deception",
+            "label": "Обман",
+            "isProf": 1
+        },
+        "nature": {
+            "baseStat": "int",
+            "name": "nature",
+            "label": "Природа"
+        },
+        "insight": {
+            "baseStat": "wis",
+            "name": "insight",
+            "label": "Проницательность"
+        },
+        "religion": {
+            "baseStat": "int",
+            "name": "religion",
+            "label": "Религия"
+        },
+        "stealth": {
+            "baseStat": "dex",
+            "name": "stealth",
+            "label": "Скрытность"
+        },
+        "persuasion": {
+            "baseStat": "cha",
+            "name": "persuasion",
+            "label": "Убеждение",
+            "isProf": 1
+        },
+        "animal handling": {
+            "baseStat": "wis",
+            "name": "animal handling",
+            "label": "Уход за животными"
+        }
+    },
+    "vitality": {
+        "hp-dice-current": {
+            "value": 20
+        },
+        "hp-dice-multi": {},
+        "ac": {
+            "value": 19
+        },
+        "speed": {
+            "value": 30
+        },
+        "hp-max": {
+            "value": 333
+        },
+        "hp-current": {
+            "value": 333
+        },
+        "hp-temp": {
+            "value": 0
+        },
+        "isDying": false,
+        "deathFails": 0,
+        "deathSuccesses": 0,
+        "hit-die": {
+            "value": "d12"
+        }
+    },
+    "weaponsList": [
+        {
+            "id": "weapon-1702717420246",
+            "name": {
+                "value": "Огненный взгляд"
+            },
+            "mod": {
+                "value": "+0"
+            },
+            "dmg": {
+                "value": "4к8"
+            },
+            "ability": "int",
+            "isProf": true,
+            "modBonus": {
+                "value": 0
+            }
+        },
+        {
+            "id": "weapon-1702752699740",
+            "name": {
+                "value": "Огненный Вихрь(одна рука)"
+            },
+            "mod": {
+                "value": "+0"
+            },
+            "dmg": {
+                "value": "1к8+3"
+            },
+            "isProf": true,
+            "modBonus": {
+                "value": 3
+            }
+        },
+        {
+            "id": "weapon-1702752748763",
+            "name": {
+                "value": "Огненный Вихрь (две)"
+            },
+            "mod": {
+                "value": "+0"
+            },
+            "dmg": {
+                "value": "1к10+3"
+            },
+            "isProf": true,
+            "modBonus": {
+                "value": 3
+            }
+        }
+    ],
+    "weapons": {},
+    "text": {
+        "traits": {
+            "value": {
+                "id": "hover-toolbar-traits-1154962",
+                "data": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "resource",
+                            "attrs": {
+                                "id": "resource-1702753081437",
+                                "textName": "attacks"
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Действие: Запирает дверь, окно, ворота или сундук, делая их невозможными для открытия без специального ключа."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "resource",
+                            "attrs": {
+                                "id": "resource-1702753099945",
+                                "textName": "attacks"
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Действие: Создаёт стену огня длиной до 60 футов, высотой до 20 футов и толщиной 1 фут, наносящую 5d8 урона огнём при прохождении через неё."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "resource",
+                            "attrs": {
+                                "id": "resource-1702753201229",
+                                "textName": "attacks"
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Действие:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Это заклинание позволяет парализовать выбранное существо, которое не является нежитью. Цель должна совершить успешный спасбросок Мудрости, иначе она становится парализованной на время действия заклинания."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Продолжительность:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " До 1 минуты (концентрация)"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "resource",
+                            "attrs": {
+                                "id": "resource-1702753022627",
+                                "textName": "attacks"
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Действие: Призывает демона выбранного типа, который выполняет приказы заклинателя."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "resource",
+                            "attrs": {
+                                "id": "resource-1702753007031",
+                                "textName": "attacks"
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Действие: Создаёт серию взрывов огня, наносящих 7d10 урона огнём каждому существу в области."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "resource",
+                            "attrs": {
+                                "id": "resource-1702752979903",
+                                "textName": "attacks"
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Школа: Обворожение (Enchantment)"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Действие: Позволяет ментально контролировать другое существо. Цель должна пройти спасбросок Мудрости, иначе она будет подчиняться телепатическим командам заклинателя. Это может включать обездвиживание, действия против воли цели и другие действия, ограниченные только волей и творчеством заклинателя."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Продолжительность: До 1 минуты (концентрация)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "size": 9
+        },
+        "attacks": {
+            "value": {
+                "id": "hover-toolbar-attacks-6629355",
+                "data": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Всегда наготове:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " "
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "underline"
+                                        }
+                                    ],
+                                    "text": "Огненный Шар (Fireball)"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Действие: Создаёт мощный взрыв огня в заданной точке, который наносит 8d6 урона огнём всем существам в радиусе 20 футов."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Спасбросок: Ловкость для уменьшения урона вдвое."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "underline"
+                                        }
+                                    ],
+                                    "text": "Иллюзия (Major Image)"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Действие: Создаёт убедительную иллюзию по выбору заклинателя в пределах 120 футов."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Продолжительность: До 10 минут (концентрация)."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "underline"
+                                        }
+                                    ],
+                                    "text": "Невидимость (Invisibility)"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Действие: Заклинатель или выбранное им существо в пределах прикосновения становится невидимым."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Продолжительность: До 1 часа (концентрация)."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "size": 7
+        },
+        "equipment": {
+            "value": {
+                "data": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Огненный Вихрь"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Тип:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Длинный меч"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Урон:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Как у обычного длинного меча (1d8 колющего урона при использовании одной рукой или 1d10 при использовании двумя руками), плюс 2d6 огненного урона при активации особенности."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Особенности:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " При произнесении командного слова, клинок охватывается пламенем на 10 ходов, не нанося урона владельцу. 3 раза в день."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "resource",
+                            "attrs": {
+                                "id": "resource-1702752892578",
+                                "textName": "equipment"
+                            }
+                        }
+                    ]
+                }
+            },
+            "size": 9
+        },
+        "prof": {
+            "value": {
+                "id": "hover-toolbar-prof-17588592",
+                "data": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Скорость полёта: 60"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Устойчивость к Урону:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " от огня, не магического оружия"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Иммунитеты к Урону:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " яд"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Иммунитет к Состояниям:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " ошеломление, отравление"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Чувства:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " темное зрение 120 фт."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Языки:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Общий, Инфернальный"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Опасность (CR):"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " 21+"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Особенности"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Магическое Сопротивление:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Преимущество в спасбросках против заклинаний и других магических эффектов."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Адская Аура:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Аура страха в радиусе 20 фт. Враги внутри должны совершать спасбросок от страха."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "text": "Лидер Дьяволов:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Бонусы к атакам и защите для подчинённых дьяволов в радиусе 60 фт."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "size": 8
+        }
+    },
+    "coins": {
+        "gp": {
+            "value": 10000
+        },
+        "total": {
+            "value": 0
+        },
+        "sp": {
+            "value": 0
+        },
+        "cp": {
+            "value": 0
+        },
+        "pp": {
+            "value": 0
+        },
+        "ep": {
+            "value": 0
+        }
+    },
+    "resources": {
+        "resource-1702752892578": {
+            "id": "resource-1702752892578",
+            "name": "Огонь на клинке",
+            "current": 3,
+            "max": 3,
+            "location": "equipment",
+            "isLongRest": true,
+            "icon": "long-rest"
+        },
+        "resource-1702752979903": {
+            "id": "resource-1702752979903",
+            "name": "Dominate Person",
+            "current": 1,
+            "max": 1,
+            "location": "attacks",
+            "isLongRest": true,
+            "icon": "long-rest"
+        },
+        "resource-1702753007031": {
+            "id": "resource-1702753007031",
+            "name": "Fire Storm",
+            "current": 1,
+            "max": 1,
+            "location": "attacks",
+            "isLongRest": true,
+            "icon": "long-rest"
+        },
+        "resource-1702753022627": {
+            "id": "resource-1702753022627",
+            "name": "Summon Greater Demon",
+            "current": 1,
+            "max": 1,
+            "location": "attacks",
+            "isLongRest": true,
+            "icon": "long-rest"
+        },
+        "resource-1702753081437": {
+            "id": "resource-1702753081437",
+            "name": "Arcane Lock",
+            "current": 3,
+            "max": 3,
+            "location": "attacks",
+            "isLongRest": true,
+            "icon": "long-rest"
+        },
+        "resource-1702753099945": {
+            "id": "resource-1702753099945",
+            "name": "Wall of Fire",
+            "current": 3,
+            "max": 3,
+            "location": "attacks",
+            "isLongRest": true,
+            "icon": "long-rest"
+        },
+        "resource-1702753201229": {
+            "id": "resource-1702753201229",
+            "name": "Hold Monster",
+            "current": 3,
+            "max": 3,
+            "location": "attacks",
+            "isLongRest": true,
+            "icon": "long-rest"
+        }
+    },
+    "bonusesSkills": {},
+    "bonusesStats": {},
+    "conditions": [],
+    "avatar": {
+        "jpeg": "https://lss-s3-files.s3.eu-north-1.amazonaws.com/avatar/657d67eeb3290e0cd8b6d196.jpeg?mod=1702719065950",
+        "webp": "https://lss-s3-files.s3.eu-north-1.amazonaws.com/avatar/657d67eeb3290e0cd8b6d196.webp?mod=1702719065964"
+    }
+}
